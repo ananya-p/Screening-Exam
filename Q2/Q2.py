@@ -1,3 +1,10 @@
+'''
+Given two CSV files with data containing timestamps for each row, merge the two files
+using their timestamps as the common key. If the timestamps do not match for a row in a
+file then use the last available data. Create an application (command line or GUI based)
+to visualize the combined data from the two CSV in real-time playback.
+'''
+
 import pandas as pd
 from tabulate import tabulate
 
